@@ -135,6 +135,19 @@
     color: #fff !important;
 }
 
+.mobile-main-menu,
+.mobile-structure-menu {
+    display: none;
+}
+
+.mobile-menu.show-main .mobile-main-menu {
+    display: block;
+}
+
+.mobile-menu.show-structure .mobile-structure-menu {
+    display: block;
+}
+
 
 /* ===== HAMBURGER BUTTON ===== */
 #hamburger {
